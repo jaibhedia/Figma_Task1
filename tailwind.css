@@ -1,0 +1,25 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --bg: rgba(255, 255, 255, 1);
+  --black: rgba(0, 0, 0, 1);
+  --brand1-6: rgba(22, 93, 255, 1);
+  --buy: rgba(252, 107, 33, 1);
+  --cards-bg: rgba(254, 254, 255, 1);
+  --dark-blue: rgba(1, 83, 201, 1);
+  --icons-color-02: rgba(215, 217, 230, 1);
+  --iris-100: rgba(93, 95, 239, 1);
+  --light-black: rgba(49, 57, 69, 1);
+  --text-3: rgba(134, 144, 156, 1);
+  --text-5: rgba(29, 33, 41, 1);
+  --textffffff: rgba(255, 255, 255, 1);
+  --transfer: rgba(31, 185, 252, 1);
+  --white: rgba(255, 255, 255, 1);
+}
